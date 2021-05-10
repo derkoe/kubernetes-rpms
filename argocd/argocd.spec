@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 %define repo github.com/argoproj/argo-cd
 Name:           argocd
-Version:        1.8.6
+Version:        2.0.1
 Release:        1%{?dist}
 Summary:        Declarative GitOps CD for Kubernetes
 

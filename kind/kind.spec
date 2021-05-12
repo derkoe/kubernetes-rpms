@@ -3,7 +3,7 @@ Version:        0.10.0
 Release:        1%{?dist}
 Summary:        Kubernetes IN Docker - local clusters for testing Kubernetes
 
-License:        Apache-2.0
+License:        ASL 2.0
 URL:            https://kind.sigs.k8s.io
 Source0:        https://kind.sigs.k8s.io/dl/v%{version}/kind-linux-amd64
 

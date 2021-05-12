@@ -1,15 +1,12 @@
-
-%define debug_package %{nil}
-%define repo github.com/argoproj/argo-cd
 Name:           argocd
 Version:        2.0.1
 Release:        1%{?dist}
 Summary:        Declarative GitOps CD for Kubernetes
 
 Group:          Applications/System
-License:        ASLv2
+License:        ASL 2.0
 URL:            https://argoproj.github.io/
-Source0:        https://%{repo}/releases/download/v%{version}/argocd-linux-amd64
+Source0:        https://github.com/argoproj/argo-cd/releases/download/v%{version}/argocd-linux-amd64
 
 %description
 %{summary}.

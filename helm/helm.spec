@@ -1,4 +1,5 @@
 Name:           helm
+# renovate: datasource=github-releases depName=helm/helm
 Version:        3.5.4
 Release:        1%{?dist}
 Summary:        The Kubernetes Package Manager

@@ -12,9 +12,11 @@ Helm helps you manage Kubernetes applications — Helm Charts help you define, i
 
 %install
 mkdir -p %{buildroot}/%{_bindir}
-install -p -m 755 %{_sourcedir}/linux-amd64/helm %{buildroot}/%{_bindir}
-install -p -m 644 %{_sourcedir}/linux-amd64/LICENSE %{buildroot}/%{_datadir}/licenses/%{name}/
-install -p -m 644 %{_sourcedir}/linux-amd64/README.md %{buildroot}/%{_docdir}/%{name}/
+
+tar xzf %{_sourcedir}/helm-v%{version}-linux-amd64.tar.gz
+install -p -m 755 linux-amd64/helm %{buildroot}/%{_bindir}
+install -p -m 644 linux-amd64/LICENSE %{buildroot}/%{_datadir}/licenses/%{name}/
+install -p -m 644 linux-amd64/README.md %{buildroot}/%{_docdir}/%{name}/
 
 %files
 %license LICENSE

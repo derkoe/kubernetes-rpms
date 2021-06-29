@@ -1,6 +1,6 @@
 Name:           octant
 # renovate: datasource=github-releases depName=vmware-tanzu/octant
-Version:        0.20.0
+Version:        0.21.0
 Release:        1%{?dist}
 Summary:        A highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
 

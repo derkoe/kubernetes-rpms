@@ -1,6 +1,6 @@
 Name:           argocd
 # renovate: datasource=github-releases depName=argoproj/argo-cd
-Version:        2.2.3
+Version:        2.4.2
 Release:        1%{?dist}
 Summary:        Declarative GitOps CD for Kubernetes
 

@@ -1,6 +1,6 @@
 Name:           dive
 # renovate: datasource=github-releases depName=wagoodman/dive
-Version:        0.10.0
+Version:        0.12.0
 Release:        1%{?dist}
 Summary:        A tool for exploring each layer in a docker image
 

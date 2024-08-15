@@ -1,6 +1,6 @@
 Name:           kind
 # renovate: datasource=github-releases depName=kubernetes-sigs/kind
-Version:        0.14.0
+Version:        0.24.0
 Release:        1%{?dist}
 Summary:        Kubernetes IN Docker - local clusters for testing Kubernetes
 
